@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A154EAB72671E4BE00082BBF /* MultiplicationTablesGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A154EAAE2671E4BE00082BBF /* MultiplicationTablesGameView.swift */; };
+		A154EAB82671E4BE00082BBF /* MultiplicationTablesSettingsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A154EAAF2671E4BE00082BBF /* MultiplicationTablesSettingsDetailView.swift */; };
+		A154EAB92671E4BE00082BBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A154EAB02671E4BE00082BBF /* Assets.xcassets */; };
+		A154EABA2671E4BE00082BBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A154EAB22671E4BE00082BBF /* Preview Assets.xcassets */; };
+		A154EABB2671E4BE00082BBF /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A154EAB32671E4BE00082BBF /* question.swift */; };
+		A154EABC2671E4BE00082BBF /* MultiplicationTablesGameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A154EAB42671E4BE00082BBF /* MultiplicationTablesGameDetailView.swift */; };
+		A154EABD2671E4BE00082BBF /* MultiplicationTableGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A154EAB52671E4BE00082BBF /* MultiplicationTableGameApp.swift */; };
+		A154EABE2671E4BE00082BBF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A154EAB62671E4BE00082BBF /* Info.plist */; };
 		A1B896B92665036E0074D1D4 /* MultiplicationTableGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B896B82665036E0074D1D4 /* MultiplicationTableGameApp.swift */; };
 		A1B896BD2665036F0074D1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B896BC2665036F0074D1D4 /* Assets.xcassets */; };
 		A1B896C02665036F0074D1D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B896BF2665036F0074D1D4 /* Preview Assets.xcassets */; };
@@ -17,6 +25,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A154EAAE2671E4BE00082BBF /* MultiplicationTablesGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplicationTablesGameView.swift; sourceTree = "<group>"; };
+		A154EAAF2671E4BE00082BBF /* MultiplicationTablesSettingsDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplicationTablesSettingsDetailView.swift; sourceTree = "<group>"; };
+		A154EAB02671E4BE00082BBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A154EAB22671E4BE00082BBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A154EAB32671E4BE00082BBF /* question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = question.swift; sourceTree = "<group>"; };
+		A154EAB42671E4BE00082BBF /* MultiplicationTablesGameDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplicationTablesGameDetailView.swift; sourceTree = "<group>"; };
+		A154EAB52671E4BE00082BBF /* MultiplicationTableGameApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplicationTableGameApp.swift; sourceTree = "<group>"; };
+		A154EAB62671E4BE00082BBF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1B896B52665036E0074D1D4 /* MultiplicationTableGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplicationTableGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B896B82665036E0074D1D4 /* MultiplicationTableGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationTableGameApp.swift; sourceTree = "<group>"; };
 		A1B896BC2665036F0074D1D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +55,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A154EAAD2671E4BE00082BBF /* MultiplicationTableGame */ = {
+			isa = PBXGroup;
+			children = (
+				A154EAAE2671E4BE00082BBF /* MultiplicationTablesGameView.swift */,
+				A154EAAF2671E4BE00082BBF /* MultiplicationTablesSettingsDetailView.swift */,
+				A154EAB02671E4BE00082BBF /* Assets.xcassets */,
+				A154EAB12671E4BE00082BBF /* Preview Content */,
+				A154EAB32671E4BE00082BBF /* question.swift */,
+				A154EAB42671E4BE00082BBF /* MultiplicationTablesGameDetailView.swift */,
+				A154EAB52671E4BE00082BBF /* MultiplicationTableGameApp.swift */,
+				A154EAB62671E4BE00082BBF /* Info.plist */,
+			);
+			name = MultiplicationTableGame;
+			sourceTree = "<group>";
+		};
+		A154EAB12671E4BE00082BBF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A154EAB22671E4BE00082BBF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		A1B896AC2665036E0074D1D4 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +99,7 @@
 			children = (
 				A1B896C8266503A30074D1D4 /* MultiplicationTablesGameView.swift */,
 				A1B896C9266503A30074D1D4 /* MultiplicationTablesSettingsDetailView.swift */,
+				A154EAAD2671E4BE00082BBF /* MultiplicationTableGame */,
 				A1B896CF2665128E0074D1D4 /* MultiplicationTablesGameDetailView.swift */,
 				A1B896B82665036E0074D1D4 /* MultiplicationTableGameApp.swift */,
 				A1B896CD26650CFD0074D1D4 /* question.swift */,
@@ -135,7 +175,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A154EABA2671E4BE00082BBF /* Preview Assets.xcassets in Resources */,
 				A1B896C02665036F0074D1D4 /* Preview Assets.xcassets in Resources */,
+				A154EAB92671E4BE00082BBF /* Assets.xcassets in Resources */,
+				A154EABE2671E4BE00082BBF /* Info.plist in Resources */,
 				A1B896BD2665036F0074D1D4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,8 +191,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1B896CC266503A30074D1D4 /* MultiplicationTablesSettingsDetailView.swift in Sources */,
+				A154EABB2671E4BE00082BBF /* question.swift in Sources */,
+				A154EABC2671E4BE00082BBF /* MultiplicationTablesGameDetailView.swift in Sources */,
 				A1B896CE26650CFD0074D1D4 /* question.swift in Sources */,
 				A1B896B92665036E0074D1D4 /* MultiplicationTableGameApp.swift in Sources */,
+				A154EAB72671E4BE00082BBF /* MultiplicationTablesGameView.swift in Sources */,
+				A154EABD2671E4BE00082BBF /* MultiplicationTableGameApp.swift in Sources */,
+				A154EAB82671E4BE00082BBF /* MultiplicationTablesSettingsDetailView.swift in Sources */,
 				A1B896CB266503A30074D1D4 /* MultiplicationTablesGameView.swift in Sources */,
 				A1B896D02665128E0074D1D4 /* MultiplicationTablesGameDetailView.swift in Sources */,
 			);
