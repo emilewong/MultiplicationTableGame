@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		A1B896B92665036E0074D1D4 /* MultiplicationTableGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B896B82665036E0074D1D4 /* MultiplicationTableGameApp.swift */; };
-		A1B896BB2665036E0074D1D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B896BA2665036E0074D1D4 /* ContentView.swift */; };
 		A1B896BD2665036F0074D1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B896BC2665036F0074D1D4 /* Assets.xcassets */; };
 		A1B896C02665036F0074D1D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B896BF2665036F0074D1D4 /* Preview Assets.xcassets */; };
+		A1B896CB266503A30074D1D4 /* MultiplicationTablesGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B896C8266503A30074D1D4 /* MultiplicationTablesGameView.swift */; };
+		A1B896CC266503A30074D1D4 /* MultiplicationTablesSettingsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B896C9266503A30074D1D4 /* MultiplicationTablesSettingsDetailView.swift */; };
+		A1B896CE26650CFD0074D1D4 /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B896CD26650CFD0074D1D4 /* question.swift */; };
+		A1B896D02665128E0074D1D4 /* MultiplicationTablesGameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B896CF2665128E0074D1D4 /* MultiplicationTablesGameDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A1B896B52665036E0074D1D4 /* MultiplicationTableGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplicationTableGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B896B82665036E0074D1D4 /* MultiplicationTableGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationTableGameApp.swift; sourceTree = "<group>"; };
-		A1B896BA2665036E0074D1D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1B896BC2665036F0074D1D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1B896BF2665036F0074D1D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1B896C12665036F0074D1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B896C8266503A30074D1D4 /* MultiplicationTablesGameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplicationTablesGameView.swift; sourceTree = "<group>"; };
+		A1B896C9266503A30074D1D4 /* MultiplicationTablesSettingsDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiplicationTablesSettingsDetailView.swift; sourceTree = "<group>"; };
+		A1B896CD26650CFD0074D1D4 /* question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question.swift; sourceTree = "<group>"; };
+		A1B896CF2665128E0074D1D4 /* MultiplicationTablesGameDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationTablesGameDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +58,11 @@
 		A1B896B72665036E0074D1D4 /* MultiplicationTableGame */ = {
 			isa = PBXGroup;
 			children = (
+				A1B896C8266503A30074D1D4 /* MultiplicationTablesGameView.swift */,
+				A1B896C9266503A30074D1D4 /* MultiplicationTablesSettingsDetailView.swift */,
+				A1B896CF2665128E0074D1D4 /* MultiplicationTablesGameDetailView.swift */,
 				A1B896B82665036E0074D1D4 /* MultiplicationTableGameApp.swift */,
-				A1B896BA2665036E0074D1D4 /* ContentView.swift */,
+				A1B896CD26650CFD0074D1D4 /* question.swift */,
 				A1B896BC2665036F0074D1D4 /* Assets.xcassets */,
 				A1B896C12665036F0074D1D4 /* Info.plist */,
 				A1B896BE2665036F0074D1D4 /* Preview Content */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B896BB2665036E0074D1D4 /* ContentView.swift in Sources */,
+				A1B896CC266503A30074D1D4 /* MultiplicationTablesSettingsDetailView.swift in Sources */,
+				A1B896CE26650CFD0074D1D4 /* question.swift in Sources */,
 				A1B896B92665036E0074D1D4 /* MultiplicationTableGameApp.swift in Sources */,
+				A1B896CB266503A30074D1D4 /* MultiplicationTablesGameView.swift in Sources */,
+				A1B896D02665128E0074D1D4 /* MultiplicationTablesGameDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
